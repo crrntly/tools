@@ -1,0 +1,17 @@
+{
+  "name": "@crrntly/eslint-config-react-app",
+  "version": "0.0.0",
+  "description": "ESLint configuration for React applications",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "9.x",
+    "eslint": "5.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.5"
+  }
+}
