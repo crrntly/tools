@@ -1,6 +1,6 @@
 {
   "name": "@crrntly/eslint-config-react-app",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint configuration for React applications",
   "main": "index.js",
   "license": "MIT",
