@@ -11,8 +11,10 @@ module.exports = (ctx) => {
       },
       'postcss-preset-env': {
         browsers: ['last 2 versions'],
+        stage: 2,
         features: {
-          rem: false,
+          'nesting-rules': true,
+          'custom-media-queries': true,
         },
       },
       'postcss-reporter': {
