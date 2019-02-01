@@ -309,7 +309,7 @@ module.exports = {
     'no-whitespace-before-property': 'warn',
     'object-curly-newline': ['warn', { consistent: true }],
     'object-curly-spacing': ['warn', 'always'],
-    'object-property-newline': 'warn',
+    'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
     'one-var': ['warn', 'never'],
     'one-var-declaration-per-line': ['warn', 'always'],
     'operator-assignment': ['warn', 'always'],
