@@ -318,7 +318,7 @@ module.exports = {
       'as-needed',
       { keywords: false, unnecessary: true, numbers: false }
     ],
-    quotes: ['warn', 'single', { avoidEscape: true }],
+    quotes: ['warn', 'single'],
     'require-yield': 'warn',
     'rest-spread-spacing': ['warn', 'never'],
     semi: ['warn', 'always'],
