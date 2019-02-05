@@ -4,6 +4,10 @@
   "description": "ESLint configuration for React applications",
   "main": "index.js",
   "license": "MIT",
+  "repository": "crrntly/react-stuff",
+  "bugs": {
+    "url": "https://github.com/crrntly/react-stuff/issues"
+  },
   "peerDependencies": {
     "babel-eslint": "9.x",
     "eslint": "5.x",
