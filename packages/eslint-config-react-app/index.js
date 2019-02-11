@@ -107,22 +107,6 @@ module.exports = {
         ObjectExpression: 1,
         ImportDeclaration: 1,
         flatTernaryExpressions: false,
-        // list derived from https://github.com/benjamn/ast-types/blob/HEAD/def/jsx.js
-        ignoredNodes: [
-          'JSXElement',
-          'JSXElement > *',
-          'JSXAttribute',
-          'JSXIdentifier',
-          'JSXNamespacedName',
-          'JSXMemberExpression',
-          'JSXSpreadAttribute',
-          'JSXExpressionContainer',
-          'JSXOpeningElement',
-          'JSXClosingElement',
-          'JSXText',
-          'JSXEmptyExpression',
-          'JSXSpreadChild'
-        ],
         ignoreComments: false
       }
     ],
@@ -372,6 +356,10 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react/forbid-foreign-prop-types': ['warn', { allowInPropTypes: true }],
+    'react/jsx-closing-bracket-location': 'warn',
+    'react/jsx-first-prop-new-line': ['warn', 'multiline'],
+    'react/jsx-indent-props': ['warn', 2],
+    'react/jsx-max-props-per-line': 'warn',
     'react/jsx-no-comment-textnodes': 'warn',
     'react/jsx-no-duplicate-props': ['warn', { ignoreCase: true }],
     'react/jsx-no-target-blank': 'warn',
@@ -385,18 +373,23 @@ module.exports = {
     ],
     'react/jsx-uses-react': 'warn',
     'react/jsx-uses-vars': 'warn',
+    'react/jsx-wrap-multilines': ['warn', {
+      declaration: 'parens-new-line',
+      assignment: 'parens-new-line',
+      return: 'parens-new-line',
+      arrow: 'parens-new-line',
+      condition: 'parens-new-line',
+      logical: 'parens-new-line',
+      prop: 'parens-new-line',
+    }],
     'react/no-danger-with-children': 'warn',
     'react/no-direct-mutation-state': 'warn',
     'react/no-is-mounted': 'warn',
     'react/no-typos': 'error',
+    'react/prop-types': 'warn',
     'react/react-in-jsx-scope': 'error',
     'react/require-render-return': 'error',
     'react/style-prop-object': 'warn',
-    'react/jsx-closing-bracket-location': 'warn',
-    'react/jsx-first-prop-new-line': ['warn', 'multiline'],
-    'react/jsx-indent-props': ['warn', 2],
-    'react/jsx-max-props-per-line': 'warn',
-    'react/prop-types': 'warn',
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules
     'jsx-a11y/accessible-emoji': 'warn',
