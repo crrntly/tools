@@ -9,7 +9,7 @@
     "url": "https://github.com/crrntly/react-stuff/issues"
   },
   "peerDependencies": {
-    "babel-eslint": "9.x",
+    "babel-eslint": "10.x",
     "eslint": "5.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
