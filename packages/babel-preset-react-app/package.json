@@ -1,6 +1,6 @@
 {
   "name": "@crrntly/babel-preset-react-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "license": "MIT",
   "repository": "crrntly/react-stuff",

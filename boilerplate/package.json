@@ -1,6 +1,6 @@
 {
   "name": "my-react-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "start": "node scripts/run start",
@@ -11,8 +11,8 @@
     "test": "jest --config=config/jest.config.js"
   },
   "devDependencies": {
-    "@crrntly/babel-preset-react-app": "^0.1.1",
-    "@crrntly/eslint-config-react-app": "^0.1.1",
+    "@crrntly/babel-preset-react-app": "^0.1.2",
+    "@crrntly/eslint-config-react-app": "^0.1.2",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "chalk": "^2.4.2",
