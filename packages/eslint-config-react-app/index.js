@@ -357,7 +357,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react/forbid-foreign-prop-types': ['warn', { allowInPropTypes: true }],
     'react/jsx-closing-bracket-location': 'warn',
-    'react/jsx-curly-brace-presence': ['warn', { 'props': 'always' }],
+    'react/jsx-curly-brace-presence': ['warn', { props: 'always', children: 'ignore' }],
     'react/jsx-first-prop-new-line': ['warn', 'multiline'],
     'react/jsx-indent-props': ['warn', 2],
     'react/jsx-max-props-per-line': 'warn',
