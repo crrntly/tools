@@ -1,6 +1,6 @@
 {
   "name": "@crrntly/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "url": "https://github.com/crrntly/tools/issues"
   },
   "main": "index.js",
-   "publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "dependencies": {
