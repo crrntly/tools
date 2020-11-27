@@ -1,6 +1,0 @@
-.DS_Store
-node_modules/
-/public
-/stats.json
-npm-debug.log*
-yarn-debug.log*

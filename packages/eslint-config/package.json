@@ -1,0 +1,25 @@
+{
+  "name": "@crrntly/eslint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/crrntly/tools.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/crrntly/tools/issues"
+  },
+  "main": "index.js",
+   "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "confusing-browser-globals": "^1.0.10",
+    "eslint": "^7.14.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
